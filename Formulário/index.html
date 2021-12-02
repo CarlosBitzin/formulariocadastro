@@ -6,5 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
   </head>
-  <body></body>
+
+  <body>
+    <div>
+      <h1>Cadastro de DEVs</h1>
+      <p>Complete suas informações</p>
+      <br />
+    </div>
+
+    <form action="">
+      <fieldset>
+        <div>
+          <label for="">Nome</label>
+          <input type="text" nome="nome" id="nome" />
+        </div>
+
+        <div>
+          <label for="">Sobrenome</label>
+          <input type="text" nome="sobrenome" id="sobrenome" />
+        </div>
+      </fieldset>
+
+      <div>
+        <label for="">Email</label>
+        <input type="email" nome="email" id="nome" />
+      </div>
+
+      <div>
+        <label for="">De que lado da aplicação você desenvolve?</label>
+        <label for="">
+          <input
+            type="radio"
+            id="frontend"
+            name="devweb"
+            value="frontend"
+          />Front-end
+        </label>
+        <label for="">
+          <input
+            type="radio"
+            id="backend"
+            name="devweb"
+            value="backend"
+          />Back-end
+        </label>
+        <label for="">
+          <input
+            type="radio"
+            id="fullstack"
+            name="devweb"
+            value="fullstack"
+          />FullStack
+        </label>
+      </div>
+
+      <div>
+        <label for="">Senioridade</label>
+        <select name="" id="senioridade">
+          <option selected disabled value="">Selecione</option>
+          <option value="">junior</option>
+          <option value="">pleno</option>
+          <option value="">Senior</option>
+        </select>
+      </div>
+
+      <fieldset>
+        <div>
+          <label for="">Selecione as tecnologias que utiliza:</label
+          ><br /><br />
+          <input
+            type="checkbox"
+            id="tecnologia1"
+            name="tecnologia1"
+            value="HTML"
+          />
+          <label for="tecnologia1">HTML</label>
+          <input
+            type="checkbox"
+            id="tecnologia2"
+            name="tecnologia2"
+            value="Css"
+          />
+          <label for="tecnologia2">CSS</label>
+          <input
+            type="checkbox"
+            id="tecnologia3"
+            name="tecnologia3"
+            value="JavaScript"
+          />
+          <label for="tecnologia3">JavaScript</label>
+          <input
+            type="checkbox"
+            id="tecnologia4"
+            name="tecnologia4"
+            value="php"
+          />
+          <label for="tecnologia4">PHP</label>
+          <input
+            type="checkbox"
+            id="tecnologia5"
+            name="tecnologia5"
+            value="Cscript"
+          />
+          <label for="tecnologia5">C#</label>
+          <input
+            type="checkbox"
+            id="tecnologia6"
+            name="tecnologia6"
+            value="python"
+          />
+          <label for="tecnologia6">PYTHON</label>
+          <input
+            type="checkbox"
+            id="tecnologia7"
+            name="tecnologia7"
+            value="Java"
+          />
+          <label for="tecnologia7">JAVA</label>
+        </div>
+      </fieldset>
+
+      <div>
+        <br />
+        <label for="">Conte um pouco da sua expriência:</label>
+        <textarea
+          name="experiencia"
+          id="experiencia"
+          style="width: 26em"
+          row="6"
+        ></textarea>
+        <br />
+        <button type="submit">concluído</button>
+      </div>
+    </form>
+  </body>
 </html>
